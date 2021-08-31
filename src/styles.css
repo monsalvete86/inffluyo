@@ -318,7 +318,7 @@ section {
 /* --------- 2.1 Header --------- */
 
 #header {
-  height: 71px !important;
+  height: 85px !important;
   overflow: visible;
   z-index: 9999;
   width: 100%;
@@ -781,7 +781,7 @@ h6 {
   padding-top: 0;
 }
 .section-heading h2 {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 .section-heading h3 {
@@ -1444,11 +1444,15 @@ blockquote {
 
 .client-overlay span {
   position: absolute;
-  top: 48%;
+  bottom: 0%;
   left: 0;
   width: 100%;
   text-align: center;
   display: inline-block;
+  color: #333;
+  text-shadow: 1px 1px 1px #fff;
+  font-size: 1.2rem;
+
 }
 
 /* --------- 6.7 Pricing Table ---------- */
@@ -2185,10 +2189,6 @@ blockquote {
     padding: 0;
   }
 
-  /*Logo*/
-  #logo h2 {
-    padding: 0;
-  }
 
   /* Social */
   #header aside {
@@ -2230,11 +2230,7 @@ blockquote {
   }
 
   /*-----------------Typography-----------------*/
-  h1 {
-    font-size: 38px;
-  }
-
-  #banner h1 {
+   #banner h1 {
     font-size: 48px;
   }
 
@@ -2530,34 +2526,27 @@ a:hover,
 /* 5. Typography */
 /*------------------------------------------------------------------------------------------*/
 
-body {
-  font-size: 15px;
-  font-weight: normal;
-  color: #111;
-}
-
-/* Logo, if you are using Fonts as Logo and not image
+ /* Logo, if you are using Fonts as Logo and not image */
 
 #logo h1 {
+    /* font-family:; */
+    font-size:3.5rem;
+    font-weight:bold;
+    color:var(--primary);
+    text-shadow: 1px 1px 2px #333;
+}
+
+/* #logo h2 {
     font-family:;
     font-size:;
     font-weight:;
     color:;
-}
+} */
 
-#logo h2 {
-    font-family:;
-    font-size:;
-    font-weight:;
-    color:;
-}
-
-*/
 
 /* Banner Typography */
 
 #banner h1 {
-  font-size: 62px;
   line-height: 60px;
   font-weight: 800;
   color: #111;
@@ -2571,13 +2560,13 @@ body {
 /* Section Title and Subtitle */
 
 .section-title {
-  font-size: 34px;
+  font-size: 2rem;
   font-weight: 700;
   color: #111;
 }
 
 .section-subtitle {
-  font-size: 16px;
+  font-size: 1.3rem;
   font-weight: 300;
   color: #9c9c9c;
 }
@@ -2594,45 +2583,7 @@ body {
   color: #111;
 }
 
-/* Standard Headings h1-h6 */
-
-h1 {
-  font-size: 40px;
-  font-weight: 300;
-  color: #111;
-}
-
-h2 {
-  font-size: 34px;
-  font-weight: 300;
-  color: #111;
-}
-
-h3 {
-  font-size: 30px;
-  font-weight: 700;
-  color: #111;
-}
-
-h4 {
-  font-size: 18px;
-  font-weight: 400;
-  color: #111;
-}
-
-h5 {
-  font-size: 16px;
-  font-weight: 400;
-  color: #111;
-}
-
-h6 {
-  font-size: 14px;
-  font-weight: 400;
-  color: #111;
-}
-
-/*------------------------------------------------------------------------------------------*/
+---------------------------------------------------------------------------*/
 /* 6. Buttons */
 /*------------------------------------------------------------------------------------------*/
 
